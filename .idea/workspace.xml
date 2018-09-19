@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03a32dea-3a85-4ac2-81cf-122518d25e23" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/02.NN_Basic/1_classification.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.NN_Basic/1_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/02.NN_Basic/1_classification.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,6 +18,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_tutorial$tensorflow_basic_3.coverage" NAME="tensorflow_basic_3 Coverage Results" MODIFIED="1536902214722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.basic_prac" />
     <SUITE FILE_PATH="coverage/tensorflow_tutorial$tensorflow_basic_2.coverage" NAME="tensorflow_basic_2 Coverage Results" MODIFIED="1536888969453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tensorflow_tutorial$tutorial_1_prac.coverage" NAME="tutorial_1_prac Coverage Results" MODIFIED="1536644818399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tensorflow_tutorial$1_classification.coverage" NAME="1_classification Coverage Results" MODIFIED="1537332563361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.NN_Basic" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -37,14 +37,26 @@
       <file leaf-file-name="tensorflow_basic_3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01.basic_prac/tensorflow_basic_3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+            <state relative-caret-position="615">
+              <caret line="56" selection-start-line="56" selection-end-line="56" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="1_classification.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02.NN_Basic/1_classification.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -140,6 +152,11 @@
             <path>
               <item name="tensorflow_tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow_tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="01.basic_prac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_tutorial" type="462c0819:PsiDirectoryNode" />
               <item name="02.NN_Basic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -173,7 +190,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tensorflow_basic_3">
+  <component name="RunManager" selected="Python.1_classification">
+    <configuration name="1_classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow_tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02.NN_Basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02.NN_Basic/1_classification.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="tensorflow_basic_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,39 +286,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="tutorial_1_prac" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tensorflow_tutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorial_1_prac.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.tutorial_1" />
-      <item itemvalue="Python.tutorial_1_prac" />
       <item itemvalue="Python.tensorflow_basic_1" />
       <item itemvalue="Python.tensorflow_basic_2" />
       <item itemvalue="Python.tensorflow_basic_3" />
+      <item itemvalue="Python.1_classification" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1_classification" />
         <item itemvalue="Python.tensorflow_basic_3" />
         <item itemvalue="Python.tensorflow_basic_2" />
         <item itemvalue="Python.tensorflow_basic_1" />
         <item itemvalue="Python.tutorial_1" />
-        <item itemvalue="Python.tutorial_1_prac" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537319924336</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="modify">
+      <created>1537322358197</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537322358197</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -323,8 +347,8 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32943925" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33021808" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16590126" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33021808" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16590126" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.15729047" />
@@ -487,21 +511,24 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/01.basic_prac/tensorflow_basic_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+        <state relative-caret-position="615">
+          <caret line="56" selection-start-line="56" selection-end-line="56" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02.NN_Basic/1_classification.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
